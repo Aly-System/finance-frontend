@@ -1,7 +1,0 @@
-node_modules
-
-# enviroment
-.vscode
-.history
-.env
-app.yaml
