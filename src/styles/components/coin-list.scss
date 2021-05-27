@@ -1,0 +1,41 @@
+.coin-list {
+    display: flex;
+    padding: 40px 0 0 50px;
+    max-width: 1024px;
+    flex-wrap: wrap;
+}
+
+.coin-container {
+    width: 280px;
+    height: 110px;
+    background: $colorMain;
+    display: flex;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    border-radius: $border-radius;
+    align-items: center;
+}
+.coin-symbol {
+    display: flex;
+    margin: 0 10px;
+    width: 96px;
+    height: 86px;
+    background: $colorBlack;
+    border-radius: $border-radius;
+    color: $field-color;
+    align-items: center;
+    justify-content: center;
+}
+.coin-name {
+    color: $field-color;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.coin-country {
+    color: $field-color-secundary;
+    font-size: 12px;
+}
+.coin-code {
+    color: $field-color-secundary;
+    font-size: 12px;
+}

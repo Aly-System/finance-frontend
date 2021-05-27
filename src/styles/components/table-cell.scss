@@ -1,0 +1,33 @@
+.container__table {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    width: 980px;
+    border-radius: $border-radius;
+    background: $colorMain;
+    height: 510px;
+    margin: 0 auto;
+}
+
+.table-cell {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.table-content__row {
+    display: block;
+    color: $font-color-table;
+    overflow: auto;
+}
+.table-content__title {
+    display: block;
+    color: $colorAccent;
+}
+.actual-page-table-catalogue {
+    color: #fff;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}

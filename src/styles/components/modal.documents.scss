@@ -1,0 +1,138 @@
+// //Style stepper modal
+// .stepper-container {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+// }
+// .modal__title {
+//     margin-bottom: 64px;
+//     color: $field-color;
+//     text-align: center;
+// }
+// .container-stepper_button {
+//     display: flex;
+// }
+
+// .button-carousel_register {
+//     cursor: pointer;
+//     width: 110px;
+//     height: 40px;
+//     background: #393e46;
+//     color: #d5d8dc;
+//     font-weight: bold;
+//     font-size: 12px;
+//     text-transform: uppercase;
+//     display: flex;
+//     justify-content: center;
+//     border-radius: 5px;
+//     align-items: center;
+//     border: none;
+//     margin: 0 90px;
+//     &:focus {
+//         background-color: $colorAccent;
+//         color: #393e46;
+//     }
+// }
+// //Styles container modal
+// .container-modal-register {
+//     width: 1050px;
+//     display: flex;
+//     flex-direction: column;
+// }
+
+// //Styles of type voucher
+// .article-register_one {
+//     width: 700px;
+//     height: 250px;
+// }
+// .article__register__two {
+//     margin: 16px 0;
+// }
+// .container-voucher {
+//     display: flex;
+//     height: 40px;
+//     align-items: center;
+//     margin-bottom: 32px;
+//     flex-direction: column;
+//     margin: 0 auto;
+// }
+// .inputs-container-voucher {
+//     display: flex;
+//     width: 700px;
+//     margin-left: 16px;
+//     flex-direction: column;
+//     margin: 0 auto;
+// }
+
+// .button-add {
+//     color: $colorGreen;
+//     &:hover {
+//         text-decoration: none;
+//     }
+// }
+// .description-voucher_register {
+//     width: 100%;
+// }
+// .Input-decription {
+//     height: 300px;
+// }
+// //----- styles content of voucher
+
+// .content__voucher {
+//     display: flex;
+//     margin: 0 8px;
+//     flex-wrap: wrap;
+//     width: 100%;
+
+//     .inputs__content__voucher {
+//         display: flex;
+//         align-items: flex-end;
+
+//         svg {
+//             margin-bottom: 8px;
+//             cursor: pointer;
+//         }
+//     }
+// }
+
+// .container__button__action {
+//     display: flex;
+//     justify-content: center;
+//     width: 100%;
+//     margin-top: 12px;
+// }
+.container__modal--register {
+    width: 980px;
+}
+
+.content__voucher {
+    display: flex;
+    flex-direction: column;
+}
+.content__voucher .FieldText:nth-child(2) label {
+    margin: 10px 25px;
+}
+.content__voucher .FieldText:nth-child(2) input {
+    width: 930px;
+    margin: 0 auto;
+}
+.inputs__content--voucher {
+    display: flex;
+    svg {
+        display: flex;
+        color: red;
+        margin: auto;
+        margin-bottom: 16px;
+        cursor: pointer;
+    }
+}
+.inputs__content--voucher .FieldSelect:nth-child(1) input {
+    width: 210px;
+}
+.inputs__content--voucher .FieldSelect:nth-child(4) input {
+    width: 210px;
+}
+.container__button--action {
+    display: flex;
+    justify-content: center;
+}

@@ -1,9 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App/App';
-import './general.css'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
 
-const element = <App/>
-const container = document.getElementById('root')
+// import context provider
+import AppProvider from 'store/authUser.store'
+import BackOfficeProvider from 'store/backOffice.store'
 
-ReactDOM.render(element,container);
+ReactDOM.render(
+    <React.StrictMode>
+        <AppProvider>
+            <BackOfficeProvider>
+                <App />
+            </BackOfficeProvider>
+        </AppProvider>
+    </React.StrictMode>,
+    document.getElementById('root')
+)

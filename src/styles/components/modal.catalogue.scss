@@ -1,0 +1,18 @@
+.container__modal__catalogue {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+}
+.modal__catalogue__content {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.modal__title {
+    margin-bottom: 45px;
+    color: $field-color;
+    text-align: center;
+}

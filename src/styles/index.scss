@@ -1,0 +1,32 @@
+// import partials
+@import 'partials/declarations';
+@import 'partials/mixins';
+@import 'partials/base';
+// Import componets
+@import 'components/app-loader.scss';
+@import 'components/app-error-alert.scss';
+@import 'components/sidebar.scss';
+@import 'components/field-text.scss';
+@import 'components/field-password.scss';
+@import 'components/field-select.scss';
+@import 'components/modal.scss';
+@import 'components/search-bar.scss';
+@import 'components/table-cell.scss';
+@import 'components/upload-file.scss';
+@import 'components/button.scss';
+@import 'components/layout.scss';
+@import 'components/coin-list.scss';
+@import 'components/modal.coin.scss';
+@import 'components/table.scss';
+@import 'components/modal.catalogue.scss';
+@import 'components/modal.documents.scss';
+@import 'components/field-note.component.scss';
+@import 'components/table-register.scss';
+@import 'components/table-catalog.scss';
+
+// Import views
+@import 'views/login.scss';
+@import 'views/framework.scss';
+@import 'views/coins.scss';
+@import 'views/catalogue.scss';
+@import 'views/financial-state.scss';
